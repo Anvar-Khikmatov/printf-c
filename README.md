@@ -45,17 +45,9 @@ A String 100 144 64 1 0x7ffd5a3a8a5c
 ```
 
 ## Technical Details
-This implementation demonstrates:
 
-- Variadic Functions: Usage of va_list, va_start, va_arg, va_end
-
-- System Calls: Direct use of write() for output operations
-
-- Type Conversion: Manual conversion between integers and strings
-
-- Memory Management: Proper allocation and freeing of dynamic memory
-
-- Number Base Conversion: Support for decimal, octal, and hexadecimal bases
+Demonstrates variadic functions, direct syscalls via write(), 
+manual memory management, and multi-base number conversion.
 
 
 ## License
